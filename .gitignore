@@ -1,0 +1,16 @@
+.env
+*.log
+*.tmp
+__pycache__/
+.ipynb_checkpoints/
+
+data/raw/*
+data/interim/*
+*.zip
+*.7z
+*.rar
+
+!data/sample/
+!data/sample/*.csv
+!data/sample/*.txt
+!data/sample/*.sql
